@@ -17,14 +17,40 @@ Esse é o projeto final de avaliação da disciplica Aplicações para Internet 
 - Lista de Vagas
 - Informações (informações da vaga)
 
+###### Mapa do Site
 ![Mapa do Site](https://i.imgur.com/IeYgJ91.png)
+
+###### Protótipo - Home 
+
+###### Protótipo - Quem somos?
+
+###### Protótipo - Contato
+
+###### Protótipo - Parceiros
+
+###### Protótipo - Login
+
+###### Protótipo - Área do Candidato 
+
+###### Protótipo - Currículo
+
+###### Protótipo - Lista de Vagas
+
+###### Protótipo - Informações 
 
 - [x] Mapa do Site
 - [x] Wireframe e Protótipo
 - [ ] Home e Fale Conosco (Contato)
 - [ ] Demais páginas 
+- [ ] Documentação
 - [ ] Apresentação e Entrega 
 
 ## Autores
+
+- Bruno Batista Rodrigues – brunorodrigues8965@gmail.com
+- Gustavo Menezes Olegario – gmenezes408@gmail.com
+- Leandro Pereira Reis – lpr.leandro@hotmail.com
+- Luis Augusto Lopes Silva – luislopes116@outlook.com
+- Paloma Rangel Rocha – palomarangelll@hotmail.com
 
 
