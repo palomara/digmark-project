@@ -4,6 +4,11 @@
 
 Esse é o projeto final de avaliação da disciplica Aplicações para Internet na Universidade Cidade de São Paulo.
 
+## Tecnologias utilizadas:
+
+![html5](https://image.flaticon.com/icons/svg/226/226269.svg)
+![css3](https://image.flaticon.com/icons/svg/732/732190.svg)
+
 ###### O projeto contêm um total de 10 páginas, que são:
 
 - Home (Página Inicial)
@@ -19,6 +24,8 @@ Esse é o projeto final de avaliação da disciplica Aplicações para Internet 
 
 ###### Mapa do Site
 ![Mapa do Site](https://i.imgur.com/IeYgJ91.png)
+
+## Protótipos :art:
 
 ###### Protótipo - Home 
 
@@ -37,6 +44,8 @@ Esse é o projeto final de avaliação da disciplica Aplicações para Internet 
 ###### Protótipo - Lista de Vagas
 
 ###### Protótipo - Informações 
+
+## Andamento
 
 - [x] Mapa do Site
 - [x] Wireframe e Protótipo
