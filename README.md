@@ -6,8 +6,8 @@ Esse é o projeto final de avaliação da disciplica Aplicações para Internet 
 
 ## Tecnologias utilizadas:
 
-![html5](https://image.flaticon.com/icons/svg/226/226269.svg)
-![css3](https://image.flaticon.com/icons/svg/732/732190.svg)
+![html5](https://cdn0.iconfinder.com/data/icons/HTML5/256/HTML_Badge.png)
+![css3](https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-256.png)
 
 ###### O projeto contêm um total de 10 páginas, que são:
 
@@ -25,7 +25,7 @@ Esse é o projeto final de avaliação da disciplica Aplicações para Internet 
 ###### Mapa do Site
 ![Mapa do Site](https://i.imgur.com/IeYgJ91.png)
 
-## Protótipos :art:
+## Protótipos 
 
 ###### Protótipo - Home 
 
