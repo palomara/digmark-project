@@ -17,7 +17,7 @@ Esse é o projeto final de avaliação da disciplica Aplicações para Internet 
 - Lista de Vagas
 - Informações (informações da vaga)
 
-![Mapa do Site] (https://i.imgur.com/IeYgJ91.png)
+![Mapa do Site](https://i.imgur.com/IeYgJ91.png)
 
 - [x] Mapa do Site
 - [x] Wireframe e Protótipo
