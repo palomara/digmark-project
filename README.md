@@ -1,6 +1,6 @@
-# digmark-project
+# Digmark
 
-## UNICID Web Project - A site for employment search and informations. 
+## UNICID Web Project - Um site para busca de vagas de emprego e suas informações (A site for employment search and informations). 
 
 Esse é o projeto final de avaliação da disciplica Aplicações para Internet na Universidade Cidade de São Paulo.
 
