@@ -1,0 +1,170 @@
+/* 
+*
+*@author Paloma Rangel
+*@version 0.1
+*/
+/* ========================= layout ======================== */
+
+body {
+	background: url('imgs/ruido.png'),
+				url(imgs/capa.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: "Segoe UI";
+	overflow-y: scroll;
+}
+/* -- Barra de navegação -- */
+
+.img-logo {
+	background: url('imgs/logo.png') no-repeat;
+	background-size: contain;
+	height: 35px;
+	width: 50px;
+	color: transparent;
+	display: block;
+	margin: 0px 30px 20px 10px;
+
+} 
+
+.navbar {
+  background-color: white;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 90px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #004055;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+#menu-option:hover {
+  background: #ddd;
+  color: black;
+}
+
+.divider{
+    position:absolute;
+    left:45%;
+    top:30%;
+    bottom:20%;
+    border-left:1px solid lightgray;
+}
+
+.button {
+	color: white;
+	border-radius: 500px;
+	padding: 10px 50px;
+    margin: 30px 25px;
+    transition: background 0.4s, color 0.4s;
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.button:hover {
+	background-color: #16405B;
+}
+
+.button:active {
+	background-color: #16405B;
+	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
+
+#area-principal {
+	background: white;
+	width: 100%;
+	height: 210px;
+	margin-top: 155px;
+	padding-right: 8px;
+	margin-left: 0;
+	left: 0;
+	
+}
+
+.conteudo {
+	position: absolute;
+	margin-top: 20px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+
+#content1 {
+	color: #405060;
+	float: left;
+	text-align: center;
+
+}
+
+#content2 {
+	text-align: center;
+	float: left;
+	margin-left: 260px;
+	color: #0000E0;
+	
+}
+
+#content3 {
+	float: left;
+	text-align: center;
+	margin-left: 260px;
+	color: #005051;
+}
+
+.comment1 {
+	background: white;
+	width: 500px;
+	height: 200px;
+	border-radius: 300px;
+	margin-top: 150px;
+	margin-bottom: 80px;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	color: #005051;
+}
+
+.comment2 {
+	margin-left: 260px;
+	background: white;
+	width: 500px;
+	height: 200px;
+	border-radius: 300px;
+	margin-top: 150px;
+	margin-bottom: 80px;
+	float: left;
+	text-align: center;
+	color: #34385E;
+}
+
+#imgcomment {
+	border-radius: 70%;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	bottom: 75px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-top: 1px solid #d8d8d8;
+  position: fixed;
+}
