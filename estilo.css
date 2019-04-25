@@ -60,15 +60,6 @@ body {
     border-left:1px solid lightgray;
 }
 
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-}
-
 .button {
 	color: white;
 	border-radius: 500px;
@@ -193,4 +184,39 @@ h4 {
 	margin-right: 10px;
 	bottom: 45px;
 	position: relative;
+}
+
+/********* Estilização pagina fale conosco****************/ 
+
+#info{
+	margin:230px;
+}
+.info{
+		margin-top:10px;
+}
+
+textarea{
+	width:450px;
+	height:100px;
+	margin-left:50px;
+}
+
+.botao{
+	float: right;
+	margin-top:-180px;
+	margin-right:500px;
+	width:100px;
+	height:30px;
+}
+
+.botaos{
+	float: left;
+	margin-top:-180px;
+	margin-left:520px;
+	width:100px;
+	height:30px;
+}
+
+#mensagem{
+	margin:20px;
 }
