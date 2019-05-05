@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Digmark - Área do candidato</title>
+		<link href="estilo.css" rel="stylesheet">
+		<link rel="icon" href="imgs/team.png">
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar"> 
+				<a  class="img-logo" href="index.html">
+                </a>
+				<div class="divider"></div>
+				<!-- Botões de Cadastro e Login-->
+                <div id="userpo"></div>
+                <button   class="logout" style="background-color: #0000E0; border-color:#0000E0;" type="submit">
+					Sair
+                </button>
+                <div>
+                    <button id="userbac" style="background-color: #0000E0; border-color:#0000E0;" >Área do Candidato</button>
+                    <button id="userbva" style="background-color: #0000E0; border-color:#0000E0;">Vagas</button>
+                    <button id="userbcur" style="background-color: #0000E0; border-color:#0000E0;">Curriculo</button>
+                </div>
+            </div> <!-- Fim Navbar-->
+				<!-- Área de Conteúdo -->
+				<div id="decorationphoto"></div>
+                <div id="formulariocurriculo"> 
+                    <h3><b>Preencha o curriculo</b></h3>
+                <form>
+                        <div class="form-group">
+                                <label for="formularioCurriculo">Nome completo:</label>
+                                <input type="text" placeholder="Jão da silva">
+                        </div>
+                        <div class="form-group">
+                                <label for="formularioCurriculo">Telefone 1: </label>
+                                <input type="text" class="form-control phone-ddd-mask" placeholder="(00) 0000-0000">
+                                <label for="formularioCurriculo">Telefone 2:</label>
+                                <input type="text" class="form-control phone-ddd-mask" placeholder="(00) 0000-0000">
+                                <div>
+                                        <label for="formularioCurriculo">Celular: </label>
+                                        <input type="text" class="form-control phone-ddd-mask" placeholder="(00) 0000-0000">
+                                        <label for="formularioCurriculo">Tel. Trabalho:</label>
+                                        <input type="text" placeholder="(00) 0000-0000">
+                                </div>
+                        </div>
+                        
+                        <div class="form-group">
+                                <label for="formularioCurriculo">Rua: </label>
+                                <input type="text" placeholder="Rua tal de ali">
+                                <label for="formularioCurriculo">Numero:</label>
+                                <input type="text"  placeholder="(00) 0000-0000">
+                                <div>
+                                        <label for="formularioCurriculo">Cep: </label>
+                                        <input type="text" placeholder="00000-00">
+                                </div>
+                        </div>
+                        <div class="form-group">
+                                <label for="exampleFormControlSelect1">Sexo:</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Masculino</option>
+                                  <option>Feminino</option>
+                                  <option>N/D</option>
+                                </select>
+                        </div>
+                        <div class="form-group">
+                                <label for="formularioCurriculo">Cargo:</label>
+                                <input type="text" placeholder="Analista de sistemas">
+                        </form>
+                        
+                </form>
+                </div>
+				<div class="footer"></div> <!-- Fim Footer -->
+		</div> <!-- Fim Container -->
+	</body>
+</html>
