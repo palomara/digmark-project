@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="utf-8">
-		<title>Digmark - Área do candidato</title>
+		<title>Digmark - Curriculo</title>
 		<link href="estilo.css" rel="stylesheet">
 		<link rel="icon" href="imgs/team.png">
 	</head>
@@ -49,7 +49,7 @@
                                 <label for="formularioCurriculo">Rua: </label>
                                 <input type="text" placeholder="Rua tal de ali">
                                 <label for="formularioCurriculo">Numero:</label>
-                                <input type="text"  placeholder="(00) 0000-0000">
+                                <input type="text"  placeholder="000">
                                 <div>
                                         <label for="formularioCurriculo">Cep: </label>
                                         <input type="text" placeholder="00000-00">
@@ -63,11 +63,19 @@
                                   <option>N/D</option>
                                 </select>
                         </div>
+                        
                         <div class="form-group">
+                                <b>Ultimo cargo</b><br>
                                 <label for="formularioCurriculo">Cargo:</label>
                                 <input type="text" placeholder="Analista de sistemas">
+                                <div>
+                                        Descrição:
+                                        <div><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></div>
+                                        
+                                </div>
+                                <button id="userbcur" style="background-color: #0000E0; border-color:#0000E0;">Enviar</button>
                         </form>
-                        
+                                                
                 </form>
                 </div>
 				<div class="footer"></div> <!-- Fim Footer -->
