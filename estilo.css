@@ -177,7 +177,7 @@ body {
 	box-shadow: 0 5px #666;
   	transform: translateY(1px);
 }
-/* Área Principal */
+/* Área Principal - USUÁRIO */
 #area-principal {
 	background: white;
 	width: 100%;
@@ -412,3 +412,8 @@ textarea{
 #mensagem{
 	margin:20px;
 }
+
+
+
+
+	

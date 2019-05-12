@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>Cadastro</title>	
+
+<style>
+	body {
+
+		background:url(papelada.png);
+		background-size:cover;
+		margin:0px;
+		} 
+	#faixa {
+		height: 100px;
+		background-color: white;
+		list-style: none;
+		padding: 0px ;
+	}
+		
+	#faixa a {
+font-family: verdana;
+font-size: 20px;
+height: 48px;
+width: 98px ;
+float:left;
+margin-top: 800px
+padding-left: 10px;
+color:white;
+text-decoration: none;
+text-align:;
+
+}
+#faixa a:link{
+color:white;
+}
+#faixa a:hover{
+color:black;
+border-radius:100px solid black;
+
+}
+#faixa a:active{
+	color:black;
+}
+#faixa li {
+
+height: 50px;
+width: 100px ;
+float: right;
+margin: 10px;
+text-align: center;
+background-color: rgb(00,00,224);
+border-radius:100px
+
+
+}
+#faixa img {
+	float: left;
+}
+	#principal {
+float:center;
+height: 400;
+width: 500;
+background-color: none;
+margin: 0px auto;
+border: 0px dotted red;
+margin-top:auto;
+}
+#principal {
+float:center;
+height: 400;
+width: 500;
+background-color: none;
+margin: 0px auto;
+border: 0px dotted red;
+margin-top:auto;
+}
+#cadastro {
+background-color: rgb(61,149,153);
+border:3px solid ;
+border-color:rgb(70,74,99);
+font-family: verdana;
+font-size: 20px;
+margin-top:30px;
+overflow: auto;
+height: 400;
+width: 500;
+
+}
+	fieldset {
+		border-color: none;
+		border-style: none;
+
+	}
+
+</style>
+
+
+
+</head>
+
+<body>
+	<div id="faixa">
+		<img src="digmarklogo.png">
+	<ul style="list-style-type: none;">
+		<li><a href="">Home</a></li>
+		<li><a href="E:\html Majer\tcc\cadastro.login\login.html" style="height: 50px;
+width: 100px ;
+
+margin: 0px;
+text-align: center;
+background-color: rgb(61,149,153);
+border-radius:101px
+">Login</a></li>
+	</ul>
+	</div>
+
+	<div id="Principal">
+		<div id="cadastro">
+			<form action="cadastro.php"
+				method="post"
+				enctype="multipart/form-data">
+			Crie seu login<br><input type="login" name="login" maxlength="10" size="30" placeholder="Crie um login" required><br>
+			Crie uma senha<br><input type="password" name="senha" maxlength="10" size="30"placeholder="Crie uma Senha" required><br>
+			Nome<br><input type="name" name="Name" size="30" maxlength="80" placeholder="Digite seu Nome" required><br>
+			e-mail<br><input type="e-mail" name="e-mail" size="30" maxlength="80"placeholder="Digite Seu e-mail." required="@."><br>
+			CPF<br><input type="number" name="CPF" maxlength="11" size="30" placeholder="Digite CPF" required><br>
+			Telefone com DDD<br><input type="number" name="Telefone" size="30" value="( )" placeholder="Digite um Telefone" required><br>
+			Cidade<br><input type="text" name="Cidade" size="30" placeholder="Digite sua Cidade" required><br>
+			Estado<br><input type="text" name="Estado" size="30" placeholder="Digite seu Estado" required><br>
+			Cargo Pretendido<br><input type="text" name="Cargo" size="30"><br>
+			Pretenção salarial<br><input type="number" name="salarial" size="30"><br>
+			Esta empregado atualmente?<br><fieldset><input type="radio" name="empregado" value="S">Sim<input type="radio" name="empregado" value="N" checked>Não</fieldset><br>
+			Pessoa com deficiencia?<br><fieldset><input type="radio" name="Deficiente" value="S">Sim<input type="radio" name="Deficiente" value="N"cheked>não</fieldset>
+			Sexo<br>
+			<fieldset>
+			<input type="radio" name="sexo" value="M">Masculino <input type="radio" name="sexo" value="F" checked>Feminino
+			</fieldset>
+			<input type="submit" name="Enviar" value="Enviar">
+
+
+
+
+
+			
+
+
+		</div>	
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
