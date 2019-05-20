@@ -27,7 +27,7 @@ body {
 } 
 
 .navbar {
-  position: fixed; 
+  position: absolute; 
   background-color: white;
   top: 0; 
   left: 0;
@@ -46,15 +46,12 @@ body {
   text-decoration: none;
   font-size: 21px;
   font-weight: bold;
-
 }
-
-
 /* Área descricao  */
 #area-descricao {
     background-color: white ;
     width : 100%;
-    height : 40px;    
+    height : 50px;    
     left: 0 ;
     margin-top: 90px;
     font-weight: bold;
@@ -66,17 +63,18 @@ body {
     display: block;
    
 }
+label {display: block;}
+  input, button {padding: 5px;}
+  input {width: 30%;}
+
 #conteudo {
-    
     width: 680px;
-	
-    background: white url(imgs/lorem.png) no-repeat 10px 5px;
+    background: white url(imgs/verde.png) no-repeat 36px 30px;
     font-size:16px;
     position: absolute;
     margin-top: 160px;
     border-radius: 17px 50px;
     margin-left: 390px;
-    
 }
 #vaga1 {
     font-weight: bold;
@@ -86,8 +84,7 @@ body {
 }
 #conteudo2 {
     width: 680px;
-	
-    background: white url(imgs/lorem.png) no-repeat 10px 5px;
+    background: white url(imgs/globo.png) no-repeat 10px 5px;
     font-size:16px;
     position: absolute;
     margin-top: 360px;
@@ -99,24 +96,79 @@ body {
     clear: both;
     padding-left: 190px;
 }
-.ajuste { 
-			border : 1px solid black;
-			margin : 5px ;
-			}
-
-
-
-/* Footer */ 
-
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 30px;
-  background-color: white;
-  border-top: 1px solid #d8d8d8;
-  position: fixed;
+#conteudo3 {
+    width: 680px;
+    background: white url(imgs/passarinho.png) no-repeat 10px 15px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 390px;
+    border-radius: 17px 50px;
+ }   
+#vaga3 {
+    font-weight: bold;
+    clear: both;
+    padding-left: 190px;
+    
 }
+#conteudo4 {
+    width: 680px;
+    background: white url(imgs/lab.png) no-repeat 30px 15px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 390px;
+    border-radius: 17px 50px;
+ }   
+#vaga4 {
+    font-weight: bold;
+    clear: both;
+    padding-left: 190px;
+    
+}
+.ajuste { 
+    border : 1px solid black;
+    margin : 5px ;
+			}
+#esquerda{
+    background-color: white;
+    height : 500px ;
+    width : 240px ;
+    float : left ; 
+    margin-top: 160px;
+    border-radius: 10px ;
+    position: absolute; 
+	margin-left:80px;
+	text-align: center;
+}
+#lista {
+	list-style-type: none;
+    text-align: left;
+    
+}
+.titulos {
+    font-size: 18px;
+}
+h3 {
+   font-size: 23px;
+}
+#areaConteudo {
+    align-content: center;
+
+    }
+p {margin: 20px}
+
+
+select.basic {
+    background: #f5f5f5;
+    height: 35px;
+    width: 170px;
+    
+}
+#pesquisa {
+    
+}
+
 
 /********* fim estilização ****************/ 
 

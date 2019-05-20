@@ -1,0 +1,110 @@
+body {
+	background: url('imgs/ruido.png'),
+				url(imgs/grafico.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: "Segoe UI";
+	overflow-y: scroll;
+    }
+    
+    /* -- Barra de navegação -- */
+/* logo */
+.img-logo {
+	background: url('imgs/logo.png') no-repeat;
+	background-size: contain;
+	height: 35px;
+	width: 320px;
+	color: transparent;
+	display: block;
+	margin: 0px 30px 20px 10px;
+    }
+    
+.navbar {
+    position: absolute; 
+    background-color: white;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 90px;
+    border-bottom: 1px solid #d8d8d8;
+    z-index: -1;
+}
+    
+.navbar a {
+    float: left;
+    display: block;
+    color: #004055;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+ #lateral {
+    background-color: white;
+    height : 490px ;
+    width : 700px ;
+    float : left ; 
+    margin-top: 100px;
+    font-size: 17px;
+    border-radius: 10px ;
+    position: fixed;     
+}           
+#conteudo {
+    background-color: white;
+    height : 490px ;
+    width : 290px ;
+    float : right ;  
+    margin-top: 100px;
+    border-radius: 10px 30px;
+    font-size: 16px;
+}
+#rodape {
+    background-color: silver; 
+    clear : both ;    
+}	
+#principal {
+    width : 1024px ;
+    margin : 0px auto ;
+           
+} 
+.ajuste { 
+    border : 1px solid black;
+    margin : 5px ;
+}    
+.myButton {
+	
+	box-shadow: 0px 10px 14px -7px #1f031f;
+	background:linear-gradient(to bottom, #ffd60a 5%, #c45500 100%);	
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 28px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d353d;
+    margin-left: 55px;
+    
+}
+.myButton:hover {
+	background:linear, left top, left bottom, color-stop(0.05, #c45500), color-stop(1, #ffd60a));
+	background:linear-gradient(top, #c45500 5%, #ffd60a 100%);
+	background:linear-gradient(top, #c45500 5%, #ffd60a 100%);
+	background:-o-linear-gradient(top, #c45500 5%, #ffd60a 100%);
+	background:linear-gradient(top, #c45500 5%, #ffd60a 100%);
+	background:linear-gradient(to bottom, #c45500 5%, #ffd60a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c45500', endColorstr='#ffd60a',GradientType=0);
+	background-color:#c45500;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+    
+}
+#botao {
+    margin-top: 50px;
+}
